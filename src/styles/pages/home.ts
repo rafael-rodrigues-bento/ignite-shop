@@ -35,7 +35,7 @@ export const Product = styled('a', {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    
+
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
 
     transform: 'translateY(110%)',
@@ -44,21 +44,19 @@ export const Product = styled('a', {
 
     strong: {
       fontSize: '$lg',
-      color: '$gray100'
     },
 
     span: {
       fontSize: '$xl',
       fontWeight: 'bold',
       color: '$green300',
-    },
+    }
   },
 
- '&:hover': {
-  footer: {
-    transform: 'translateY(0%)',
-    opacity: 1,
-
+  '&:hover': {
+    footer: {
+      transform: 'translateY(0%)',
+      opacity: 1,
+    }
   }
- }
 })
